@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 5%;
+	z-index: 10;
+
+}
+
+.navbar_nav_items {
+	display: flex;
+	gap: 10px;
+}
+
+.netflix_logo {
+	height: 55px;
+}
+
+.language_drop_down {
+	background: transparent;
+	color: white;
+	border: none;
+}
+
+/* .globe{
+	height: 20px;
+} */
+/* .signin_button {
+	background-color: red;
+	color: white;
+} */
+
+.dropdown_contain {
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid white;
+	padding: 0.4rem;
+	border-radius: 4px;
+
+}
+
+.signin_button {
+	border: #dc030f;
+	background-color: #dc030f;
+	color: white;
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+	height: 35px;
+	width: 100px;
+}
+
+.hero_bg_img_contain {
+	width: 100%;
+	height: 100%;
+}
+
+.hero_bg_img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.hero_bg_overlay {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+
+}
+
+.hero_card {
+	position: absolute;
+	top: 35%;
+	left: 17%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.hero_title {
+	font-weight: 600;
+	font-size: 3rem;
+
+}
+
+.hero_subs,
+.hero_cont {
+	font-weight: 400;
+	font-size: 1.3rem;
+
+}
+
+.email_button {
+	border: #dc030f;
+	background-color: #dc030f;
+	color: white;
+	padding: 0.25rem 0.5rem;
+	border-radius: 5px;
+	height: 45px;
+	width: 200px;
+	font-size: 20px;
+	position: relative;
+	left: 550px;
+}
+
+.email_section {
+	display: flex;
+	/* text-align: center; */
+	float: left;
+}
+
+.email {
+	width: 340px;
+	height: 45px;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 0.25rem 0.5rem;
+	border-radius: 5px;
+
+	border-color: white;
+	font-family: "Poppins", sans-serif;
+
+}
+
+/* .style_cards{
+	display: flex;
+} */
+/* .card1{
+	position: absolute;
+	left: 300px;
+	gap: 2px;
+	display: flex;
+}
+.cont{
+	font-size: 35px;
+}
+.cont1{
+	font-size: 28px;
+}
+/* .desc1{
+	font-size: 30px;
+} */
+/* .card2{
+	position: absolute;
+	left: 300px;
+	gap: 2px;
+	display: flex;
+}
+.phone_img{
+	height: 300px;
+} */
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+	border-top: 80px rgb(176, 176, 176);
+	padding: 50px;
+
+}
+
+.card1 {
+	position: relative;
+	display: inline-grid;
+	grid-template-columns: 50% 40%;
+	text-align: left;
+	align-items: center;
+	padding: 25px 45px 50px;
+
+}
+
+/* .desc1,
+.desc2,
+.desc3,
+.desc4{
+	font-size: 30px;
+} */
+
+.card2 {
+	position: relative;
+	display: inline-grid;
+	grid-template-columns: 50% 40%;
+	text-align: right;
+	align-items: center;
+	padding: 25px 45px 50px;
+
+}
+
+.card3 {
+	position: relative;
+	display: inline-grid;
+	grid-template-columns: 50% 40%;
+	text-align: left;
+	align-items: center;
+	padding: 25px 45px 50px;
+
+}
+
+.card4 {
+	position: relative;
+	display: inline-grid;
+	grid-template-columns: 50% 40%;
+	text-align: right;
+	align-items: center;
+	padding: 25px 45px 50px;
+
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+	padding-left: 50px;
+
+}
+
+.footer_cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+	padding-left: 50px;
+
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.bord {
+	width: 100vw;
+	height: 10px;
+	background-color: gray;
+}
+
+.asd {
+	font-size: 35px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.card1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card3 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card4 {
+	display: flex;
+	justify-content: space-around;
+}
